@@ -1,0 +1,12 @@
+# requirements.txt
+streamlit
+transformers==4.38.2
+torch
+# sounddevice is no longer needed
+scipy
+sentencepiece
+scikit-learn
+numpy==1.26.4
+# Add the browser-based recorder
+streamlit-mic-recorder
+

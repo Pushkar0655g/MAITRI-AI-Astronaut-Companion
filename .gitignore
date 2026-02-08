@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Temp audio
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
