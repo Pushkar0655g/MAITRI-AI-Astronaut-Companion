@@ -46,6 +46,7 @@ An **offline AI system** designed to monitor and support the **psychological and
 
 ## 🧠 System Architecture
 
+
 User Voice Input
 ↓
 Speech-to-Text (Whisper)
@@ -58,23 +59,11 @@ LLM Response (Gemma via Ollama)
 ↓
 Text-to-Speech Output
 
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Streamlit
-- Ollama (Gemma 2B)
-- Whisper (Speech-to-Text)
-- Wav2Vec2 (Emotion Detection)
-- SpeechT5 (Text-to-Speech)
-- HuggingFace Transformers
-- Docker
-- RAG (ChromaDB / Vector DB)
 
 ---
 
 ## 📂 Project Structure
+
 
 MAITRI-COMPANION/
 │
@@ -85,7 +74,6 @@ MAITRI-COMPANION/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
-
 ---
 
 ## ⚡ How to Run
