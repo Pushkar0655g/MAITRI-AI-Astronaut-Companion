@@ -58,8 +58,6 @@ Context Retrieval (RAG)
 LLM Response (Gemma via Ollama)
 ↓
 Text-to-Speech Output
-
-
 ---
 
 ## 📂 Project Structure
