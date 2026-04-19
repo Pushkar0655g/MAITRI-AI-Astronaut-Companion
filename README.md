@@ -77,7 +77,6 @@ Text-to-Speech Output
 
 ## 📂 Project Structure
 
-
 MAITRI-COMPANION/
 │
 ├── app.py
@@ -107,6 +106,7 @@ Download from: https://ollama.com
 ollama run gemma:2b
 5. Start application
 streamlit run app.py
+
 💡 About the Project
 
 MAITRI is designed for deep-space missions, where communication delays make real-time human support difficult.
