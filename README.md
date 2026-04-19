@@ -46,7 +46,7 @@ An **offline AI system** designed to monitor and support the **psychological and
 
 ## 🧠 System Architecture
 
-
+```
 User Voice Input
 ↓
 Speech-to-Text (Whisper)
@@ -58,11 +58,12 @@ Context Retrieval (RAG)
 LLM Response (Gemma via Ollama)
 ↓
 Text-to-Speech Output
----
+```
 
 ## 📂 Project Structure
+## 📂 Project Structure
 
-
+```
 MAITRI-COMPANION/
 │
 ├── app.py
@@ -72,13 +73,14 @@ MAITRI-COMPANION/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
----
+```
 
 ## ⚡ How to Run
 
 ### 1. Clone the repository
 
 git clone https://github.com/Pushkar0655g/MAITRI-COMPANION.git
+```
 cd MAITRI-COMPANION
 
 ### 2. Install dependencies
