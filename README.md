@@ -31,7 +31,7 @@ An **offline AI system** designed to monitor and support the **psychological and
 ## 📸 Demo
 
 ### 🖥️ Application Interface
-![UI](images/ui_main.png)
+![UI](images/ui_main.jpeg)
 
 ### 🎤 Voice Interaction
 ![Voice](images/voice_interaction.png)
@@ -46,17 +46,18 @@ An **offline AI system** designed to monitor and support the **psychological and
 
 ## 🧠 System Architecture
 
-User Voice Input  
-↓  
-Speech-to-Text (Whisper)  
-↓  
-Emotion Detection (Wav2Vec2)  
-↓  
-Context Retrieval (RAG)  
-↓  
-LLM Response (Gemma via Ollama)  
-↓  
-Text-to-Speech Output  
+User Voice Input
+↓
+Speech-to-Text (Whisper)
+↓
+Emotion Detection (Wav2Vec2)
+↓
+Context Retrieval (RAG)
+↓
+LLM Response (Gemma via Ollama)
+↓
+Text-to-Speech Output
+
 
 ---
 
@@ -94,75 +95,39 @@ MAITRI-COMPANION/
 
 ### 1. Clone the repository
 
-
 git clone https://github.com/Pushkar0655g/MAITRI-COMPANION.git
-
 cd MAITRI-COMPANION
-
-
----
-
-### 2. Install dependencies
-
-
+2. Install dependencies
 pip install -r requirements.txt
+3. Install Ollama
 
+Download from: https://ollama.com
 
----
-
-### 3. Install Ollama
-
-Download from: https://ollama.com  
-
----
-
-### 4. Run LLM locally
-
-
+4. Run LLM locally
 ollama run gemma:2b
-
-
----
-
-### 5. Start application
-
-
+5. Start application
 streamlit run app.py
+💡 About the Project
 
+MAITRI is designed for deep-space missions, where communication delays make real-time human support difficult.
 
----
+It acts as a proactive AI companion, capable of:
 
-## 💡 About the Project
+Detecting emotional stress
+Monitoring cognitive load
+Providing intelligent and empathetic responses
+Operating fully offline
+🔮 Future Improvements
+Facial emotion detection (OpenCV / Dlib)
+Advanced cognitive load scoring
+Multi-user astronaut support
+UI/UX enhancements
+Real-time monitoring dashboard
+⚠️ Note
+LLM models are not included in this repository
+Ollama must be installed locally
+Designed as a hackathon prototype
+👨‍💻 Author
 
-MAITRI is designed for **deep-space missions**, where communication delays make real-time human support difficult.
-
-It acts as a **proactive AI companion**, capable of:
-
-- Detecting emotional stress  
-- Monitoring cognitive load  
-- Providing intelligent and empathetic responses  
-- Operating fully offline  
-
----
-
-## 🔮 Future Improvements
-
-- Facial emotion detection (OpenCV / Dlib)  
-- Advanced cognitive load scoring  
-- Multi-user astronaut support  
-- UI/UX enhancements  
-- Real-time monitoring dashboard  
-
----
-
-## ⚠️ Note
-
-- LLM models are not included in this repository  
-- Ollama must be installed locally  
-- Designed as a hackathon prototype  
-
----
-
-## 👨‍💻 Author
-
-Pushkar Chirra  
+Pushkar Chirra
+🔗 GitHub: https://github.com/Pushkar0655g
