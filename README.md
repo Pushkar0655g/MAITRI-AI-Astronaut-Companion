@@ -61,7 +61,6 @@ Text-to-Speech Output
 ```
 
 ## 📂 Project Structure
-## 📂 Project Structure
 
 ```
 MAITRI-COMPANION/
@@ -80,7 +79,7 @@ MAITRI-COMPANION/
 ### 1. Clone the repository
 
 git clone https://github.com/Pushkar0655g/MAITRI-COMPANION.git
-```
+
 cd MAITRI-COMPANION
 
 ### 2. Install dependencies
